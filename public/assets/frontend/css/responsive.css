@@ -1,0 +1,183 @@
+/**
+* Template Name: VYCNIS 
+* Author: VYCNIS 
+* Design & Development : VYCNIS 
+* Date : 15-11-2020 
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+figcaption,
+hgroup,
+menu,
+footer,
+header,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article,
+aside,
+canvas,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+audio,
+video {
+  display: block;
+}
+
+/*		Large-PC-Size: 1200-1600.
+      Gutters: 24px.
+      Outer margins: 28px.
+      Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+  cols    1     2      3      4      5      6      7      8
+  px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  
+}
+
+/*		Laptop-Size: 992-1199.
+      Gutters: 24px.
+      Outer margins: 28px.
+      Inherits styles from: Default Layout.
+  -----------------------------------------------------------------
+  cols    1     2      3      4      5      6      7      8
+  px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+ 
+}
+
+/*		Tablet Layout: 768px-991.
+      Gutters: 24px.
+      Outer margins: 28px.
+      Inherits styles from: Default Layout.
+  -----------------------------------------------------------------
+  cols    1     2      3      4      5      6      7      8
+  px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/*		Wide Mobile Layout: 500-767px.
+      Gutters: 24px.
+      Outer margins: 22px.
+      Inherits styles from: Default Layout, Mobile Layout.
+  ------------------------------------------------------------
+  cols    1     2      3      4      5
+  px      68    160    252    344    436    */
+
+  @media only screen and (min-width: 500px) and (max-width: 767px) {
+
+ 
+  }
+/*		Wide Mobile Layout: 310-480px.
+      Gutters: 24px.
+      Outer margins: 22px.
+      Inherits styles from: Default Layout, Mobile Layout.
+  ------------------------------------------------------------
+  cols    1     2      3      4      5
+  px      68    160    252    344    436    */
+
+@media only screen and (min-width: 310px) and (max-width: 499px) {
+  .container{
+    width: 100%;
+  }
+
+  .fill-common {
+    display: flex;
+    flex-direction: column;
+  }
+  .fill .file-input {
+    padding-bottom: 5%;
+    width: 92%;
+  }
+  .common-texarea {
+    width: 96%;
+    height: auto;
+    display: block;
+  }
+  .common-input {
+    width: 96%;
+  }
+  .termscondition{
+    font-size: 12px;
+  }
+ 
+}

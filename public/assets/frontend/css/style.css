@@ -1,0 +1,137 @@
+/**
+* Template Name: Muslim Matrimony 
+* Author: Muslim Matrimony 
+* Design & Development : Women In Digital  
+* Date : 13.12.2020
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    width: 100%;
+    background-image: url(../img/wwmm-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #2a87ae;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-primary {
+}
+.form-control:focus {
+    border-color: #2a87ae;
+    box-shadow: none;
+}
+.form-control {
+    font-size: 14px;
+}
+.btn-success:not(:disabled):not(.disabled).active,
+.btn-success:not(:disabled):not(.disabled):active,
+.show > .btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #565cac;
+    border-color: #565cac;
+}
+.btn-success.focus,
+.btn-success:focus {
+    color: #fff;
+    background-color: #565cac;
+    border-color: #565cac;
+    box-shadow: none;
+}
+.btn-success:not(:disabled):not(.disabled).active:focus,
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.show > .btn-success.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+/* General Css Edn */
+
+/* Main Content Css Start */
+
+.custom_button {
+    margin-top: 25px;
+    background: #2a87ae;
+    border: 1px solid #2a87ae;
+    padding: 10px 40px;
+}
+.custom_button:hover {
+    background: #277fa5;
+    border: 1px solid #277fa5;
+}
+.registration-form {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.all-body {
+    padding-top: 30px;
+}
+.banner img {
+    border-radius: 2px;
+}
+.container {
+    width: 700px;
+    background: white;
+    padding: 2px;
+}
+.registration-head {
+    margin-top: 30px;
+}
+.registration-head h5 {
+    background: #2a87ae;
+    padding: 20px 10px;
+    color: white;
+    border-radius: 2px;
+}
+.fill-common {
+    display: flex;
+}
+.fill-common .common-gap {
+    padding-right: 15px;
+}
+
+.fill .req {
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+.form-group > label {
+    padding: 20px 0px 5px 0px;
+}
+.common-input {
+    width: 60%;
+}
+.common-texarea {
+    width: 60%;
+    height: 130px;
+}
+.fill .file-input {
+    padding-bottom: 5%;
+    width: 60%;
+}
+.form-control {
+    border: 1px solid #2a87ae;
+}
+/* Main Content Css End */
+
+.fill .label-title {
+    font-weight: 500;
+    color: #576657;
+    font-size: 14px;
+}
